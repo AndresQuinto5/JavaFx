@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="625.0" style="-fx-background-color: lightgray;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ViewListsController">
+   <children>
+      <Button layoutX="34.0" layoutY="28.0" mnemonicParsing="false" style="-fx-background-color: white;" text="Return">
+         <font>
+            <Font name="Futura Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="518.0" layoutY="28.0" mnemonicParsing="false" style="-fx-background-color: white;" text="Add Articles">
+         <font>
+            <Font name="Apple SD GothicNeo ExtraBold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="449.0" layoutY="301.0" mnemonicParsing="false" style="-fx-background-color: white;" text="Mark as purchased">
+         <font>
+            <Font name="Apple SD GothicNeo ExtraBold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="349.0" layoutY="301.0" mnemonicParsing="false" style="-fx-background-color: white;" text="Pending">
+         <font>
+            <Font name="Apple SD GothicNeo ExtraBold" size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="236.0" layoutY="305.0" text="Mark as:">
+         <font>
+            <Font name="Apple SD GothicNeo ExtraBold" size="16.0" />
+         </font>
+      </Label>
+      <TableView fx:id="listTable" layoutX="36.0" layoutY="126.0" prefHeight="164.0" prefWidth="552.0">
+        <columns>
+          <TableColumn fx:id="ArticleCol" prefWidth="137.0" text="Article" />
+          <TableColumn fx:id="QuantityCol" prefWidth="98.0" text="Quantity" />
+            <TableColumn fx:id="UnityCol" text="Unit Value" />
+            <TableColumn fx:id="TotalCol" prefWidth="123.0" text="Total" />
+            <TableColumn fx:id="StatusCol" prefWidth="113.0" text="Status" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
