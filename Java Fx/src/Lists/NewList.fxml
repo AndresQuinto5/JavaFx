@@ -9,12 +9,12 @@
 <AnchorPane prefHeight="400.0" prefWidth="625.0" style="-fx-background-color: lightgray;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Lists.NewListController">
    <children>
       <Button layoutX="527.0" layoutY="349.0" mnemonicParsing="false" style="-fx-background-color: white;" text="Create" />
-      <Button layoutX="34.0" layoutY="33.0" mnemonicParsing="false" style="-fx-background-color: white;" text="&lt;" textAlignment="CENTER">
+      <Button layoutX="34.0" layoutY="33.0" mnemonicParsing="false" style="-fx-background-color: white;" text="Return" textAlignment="CENTER">
          <font>
             <Font name="Futura Bold" size="13.0" />
          </font>
       </Button>
-      <Label layoutX="88.0" layoutY="31.0" text="New list">
+      <Label layoutX="282.0" layoutY="31.0" text="New list">
          <font>
             <Font name="Futura Bold" size="24.0" />
          </font>
